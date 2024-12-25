@@ -110,21 +110,21 @@ This duration, 2-3 hours, may represent a sweet spot where music provides enough
 The logistic regression model aimed to determine which factors are associated with the improvement of mental health through music therapy. The analysis included several independent variables, including demographic information, streaming services, favorite genres, and mental health conditions.
 ### Model Summary
 The regression model was formulated as follows:
-•	Dependent Variable: "Music.effects" (improvement in mental health, TRUE or FALSE).
-•	Independent Variables: Age, Primary.streaming.service, Hours.per.day, Fav.genre, BPM, Anxiety, Depression, Insomnia, OCD.
+-	Dependent Variable: "Music.effects" (improvement in mental health, TRUE or FALSE).
+-	Independent Variables: Age, Primary.streaming.service, Hours.per.day, Fav.genre, BPM, Anxiety, Depression, Insomnia, OCD.
 ### Model Fit
 The model's AIC (Akaike Information Criterion) was 711.51, indicating the relative quality of the model. The deviance decreased from 709.06 (null deviance) to 653.51 (residual deviance), demonstrating an improvement in model fit when predictors were added. The low deviance suggests that the model aligns well with the data.
 ### Significant Predictors
 Among the independent variables, only "Anxiety" was a significant predictor, with a p-value of 0.000206, which is well below the standard significance level of 0.05. This finding indicates that individuals experiencing anxiety are more likely to report improvements in their mental health through music therapy.
 ### Interpretation of all Coefficients
-•	Intercept: The intercept is significant, but its practical interpretation in this context is limited due to the large estimate and standard error.
-•	Age: Age has an extremely small coefficient, indicating a negligible impact on the likelihood of improvement.
-•	Primary Streaming Service: All categories for this variable have large negative coefficients, but none are statistically significant.
-•	Hours per Day: The coefficient for listening hours is positive, suggesting that increased listening may be beneficial, but this effect is not statistically significant.
-•	Favorite Genre: Different genres have varying coefficients, with Gospel and Lofi showing extremely high estimates. However, these genres are not statistically significant predictors.
-•	BPM: The coefficient for BPM is close to zero, indicating that tempo does not significantly influence improvement.
-•	Anxiety: The positive coefficient for Anxiety indicates that individuals with this condition are more likely to report improvement. This aligns with the significance level of the predictor, making it a key factor in the model.
-•	Depression, Insomnia, OCD: These psychological measures are not significant predictors, although their coefficients suggest varying influences.
+-	Intercept: The intercept is significant, but its practical interpretation in this context is limited due to the large estimate and standard error.
+-	Age: Age has an extremely small coefficient, indicating a negligible impact on the likelihood of improvement.
+-	Primary Streaming Service: All categories for this variable have large negative coefficients, but none are statistically significant.
+-	Hours per Day: The coefficient for listening hours is positive, suggesting that increased listening may be beneficial, but this effect is not statistically significant.
+-	Favorite Genre: Different genres have varying coefficients, with Gospel and Lofi showing extremely high estimates. However, these genres are not statistically significant predictors.
+-	BPM: The coefficient for BPM is close to zero, indicating that tempo does not significantly influence improvement.
+-	Anxiety: The positive coefficient for Anxiety indicates that individuals with this condition are more likely to report improvement. This aligns with the significance level of the predictor, making it a key factor in the model.
+-	Depression, Insomnia, OCD: These psychological measures are not significant predictors, although their coefficients suggest varying influences.
 
 
 
